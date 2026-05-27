@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <title>HawAPI</title>
+  
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      HawAPI
+    </div>
+
+    <div class="menu">
+
+      <a href="#">Início</a>
+      <a href="#">Personagens</a>
+      <a href="#">Episódios</a>
+      <a href="#">Localização</a>
+      <a href="#">Temporadas</a>
+      <a href="#">Jogos</a>
+
+    </div>
+
+    <div class="nav-right">
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Buscar...">
+      </div>
+
+      <button class="login-btn">
+        <i class="fa-solid fa-user"></i>
+        Login
+      </button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="overlay">
+      <h1>Stranger Things</h1>
+      <div class="info">
+        <span>⭐ 8.7</span>
+        <span>📅 2016</span>
+        <span>📺 4 Temporadas</span>
+      </div>
+      <p>
+        Na década de 1980, um grupo de amigos se envolve em uma série
+        de eventos sobrenaturais na pacata cidade de Hawkins.
+      </p>
+      <div class="hero-buttons">
+        <button class="red-btn">
+          Ver Todos os Episódios
+        </button>
+        <button class="dark-btn">
+          Sobre API
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="stats-box">
+    <div class="stat">
+      <i class="fa-solid fa-tv"></i>
+      <div>
+        <h3>4</h3>
+        <p>Temporadas</p>
+      </div>
+    </div>
+
+    <div class="stat">
+      <i class="fa-solid fa-folder"></i>
+      <div>
+        <h3>34</h3>
+        <p>Episódios</p>
+      </div>
+    </div>
+
+
+    <div class="stat">
+      <i class="fa-solid fa-users"></i>
+      <div>
+        <h3>100+</h3>
+        <p>Personagens</p>
+      </div>
+    </div>
+
+
+    <div class="stat">
+      <i class="fa-solid fa-location-dot"></i>
+      <div>
+        <h3>40+</h3>
+        <p>Localizações</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="episodios-section">
+      <div class="topo">
+        <h2>Episódios em destaque</h2>
+        <a href="#">Mais episódios →</a>
+      </div>
+      <div class="episodios-grid">
+
+        <div class="episodio-card">
+          <img src="./episodio1.jfif">
+          <div class="episodio-info">
+            <h3>O Desaparecimento de Will Byers</h3>
+            <p>
+              Will é aterrorizado por alguma coisa...
+            </p>
+          </div>
+        </div>
+
+        <div class="episodio-card">
+          <img src="./episodio2.png">
+          <div class="episodio-info">
+            <h3>A estranha da Maple Street</h3>
+            <p>
+              Mike e Dustin encontram uma garota estranha...
+            </p>
+          </div>
+        </div>
+
+        <div class="episodio-card">
+          <img src="./episodio3.png">
+          <div class="episodio-info">
+            <h3>Caramba</h3>
+            <p>
+              Nancy procura por Barb...
+            </p>
+          </div>
+        </div>
+
+        <div class="episodio-card">
+          <img src="./episodio4.jfif">
+          <div class="episodio-info">
+            <h3>O Corpo</h3>
+            <p>
+              Joyce tenta se comunicar...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dashboard">
+      <div class="left">
+
+        <div class="box">
+
+          <h2>Temporadas</h2>
+          <div class="temporadas-grid">
+            <div class="temporada-card">
+              <img src="./temporada1.jfif">
+              <div class="temporada-info">
+                <h3>Temporada 1</h3>
+                <p>2016</p>
+                <span>8 episódios</span>
+              </div>
+            </div>
+
+            <div class="temporada-card">
+              <img src="./temporada2.jfif">
+              <div class="temporada-info">
+                <h3>Temporada 2</h3>
+                <p>2017</p>
+                <span>9 episódios</span>
+              </div>
+            </div>
+
+            <div class="temporada-card">
+              <img src="./temporada3.jpg">
+              <div class="temporada-info">
+                <h3>Temporada 3</h3>
+                <p>2019</p>
+                <span>8 episódios</span>
+              </div>
+            </div>
+
+            <div class="temporada-card">
+              <img src="./temporada 4.jfif">
+              <div class="temporada-info">
+                <h3>Temporada 4</h3>
+                <p>2022</p>
+                <span>9 episódios</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box api-box">
+          <div class="api-left">
+            <div class="api-icon">
+              &lt;/&gt;
+            </div>
+            <div>
+              <h3>Explore nossa API</h3>
+              <p>
+                Acesse todos os dados de Stranger Things
+                através da nossa API RESTful.
+              </p>
+            </div>
+          </div>
+          <div class="api-buttons">
+            <button>Documentação</button>
+            <button>Ver EndPoints</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+
+        <div class="box">
+          <h2>Personagens em destaque</h2>
+          <div class="personagens">
+            <div class="personagem">
+              <img src="./eleven.webp">
+              <p>Eleven</p>
+            </div>
+
+            <div class="personagem">
+              <img src="./mike.jfif">
+              <p>Mike</p>
+            </div>
+
+            <div class="personagem">
+              <img src="./will.jfif">
+              <p>Will</p>
+            </div>
+
+            <div class="personagem">
+              <img src="./stt.jfif">
+              <p>Lucas</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box features">
+
+          <div class="feature">
+            <div class="circle blue"></div>
+            <div>
+              <h3>JSON</h3>
+              <p>Formato leve</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="circle green"></div>
+            <div>
+              <h3>RESTful</h3>
+              <p>Padrões web</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="circle yellow"></div>
+            <div>
+              <h3>CORS</h3>
+              <p>Acesso liberado</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
